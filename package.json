@@ -1,0 +1,16 @@
+{
+  "name": "js-create-includes-webpack-plugin",
+  "version": "0.0.1",
+  "description": "A WebPack makes includes of HtmlWebpack with JS createElement",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Denis Efremov <efremov.a.denis@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@atomix/eslint-config": "^7.0.0-alpha.2",
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.6.0"
+  }
+}

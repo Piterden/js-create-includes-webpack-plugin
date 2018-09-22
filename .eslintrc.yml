@@ -1,0 +1,24 @@
+root: true
+parser: babel-eslint
+extends: '@atomix'
+env:
+  es6: true
+  node: true
+parserOptions:
+  sourceType: module
+  ecmaVersion: 2017
+rules:
+  space-before-function-paren:
+    - error
+    - always
+  class-methods-use-this:
+    - error
+    -
+      exceptMethods:
+        - apply
+  no-param-reassign:
+    - error
+    -
+      props: true
+      ignorePropertyModificationsFor:
+        - data
