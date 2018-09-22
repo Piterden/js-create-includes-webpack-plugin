@@ -1,7 +1,7 @@
 {
   "name": "js-create-includes-webpack-plugin",
   "version": "0.0.1",
-  "description": "A WebPack makes includes of HtmlWebpack with JS createElement",
+  "description": "A WebPack make includes of HtmlWebpack with JS createElement",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
