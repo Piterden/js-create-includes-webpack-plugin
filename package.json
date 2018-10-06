@@ -1,7 +1,7 @@
 {
   "name": "js-create-includes-webpack-plugin",
   "version": "0.0.1",
-  "description": "A WebPack make includes of HtmlWebpack with JS createElement",
+  "description": "Making WebPack includes creating with JS createElement",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,6 +11,8 @@
   "devDependencies": {
     "@atomix/eslint-config": "^7.0.0-alpha.2",
     "babel-eslint": "^9.0.0",
-    "eslint": "^5.6.0"
+    "html-webpack-plugin": "^3.2.0",
+    "eslint": "^5.6.0",
+    "webpack": "^3.0.0 || ^4.0.0"
   }
 }
