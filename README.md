@@ -1,5 +1,7 @@
 # JSCreateIncludesWebpackPlugin
 
+The simple plug-in which allows you to run cordova/webpack app.
+
 ## Overview
 
 The WebPack plugin for convert HTML script assignment like:
@@ -22,13 +24,33 @@ The WebPack plugin for convert HTML script assignment like:
 
 ## Installation
 
+> ##### Requirements:
+>
+> - webpack
+> - html-webpack-plugin
+
 ```sh
 $ npm i js-create-includes-webpack-plugin -D
 ```
 
-
-
 ## Usage
 
+Add to you WebPack config file the next:
+
+```js
+const JSCreateIncludesWebpackPlugin = require('js-create-includes-webpack-plugin')
+
+// ...
+
+module.exports = {
+  plugins: [
+    // Place it after HtmlWebpackPlugin
+    new JSCreateIncludesWebpackPlugin(),
+  ],
+}
+```
+
 ## Credits
+
+Author: Denis Efremov [@piterden](https://github.com/piterden)
 
