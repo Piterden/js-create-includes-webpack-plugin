@@ -1,4 +1,4 @@
-# JSCreateIncludesWebpackPlugin
+# [JSCreateIncludesWebpackPlugin](https://github.com/Piterden/js-create-includes-webpack-plugin)
 
 The simple plug-in which allows you to run cordova/webpack app.
 
