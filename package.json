@@ -1,6 +1,6 @@
 {
   "name": "js-create-includes-webpack-plugin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Making WebPack includes creating with JS createElement",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,10 @@
   },
   "author": "Denis Efremov <efremov.a.denis@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Piterden/js-create-includes-webpack-plugin.git"
+  },
   "devDependencies": {
     "@atomix/eslint-config": "^7.0.0-alpha.2",
     "babel-eslint": "^9.0.0",
