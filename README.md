@@ -1,5 +1,9 @@
 # [JSCreateIncludesWebpackPlugin](https://github.com/Piterden/js-create-includes-webpack-plugin)
 
+![Travis (.org)](https://img.shields.io/travis/Piterden/js-create-includes-webpack-plugin.svg?style=for-the-badge)
+![GitHub search hit counter](https://img.shields.io/github/search/Piterden/js-create-includes-webpack-plugin/webpack.svg?style=for-the-badge)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Piterden/js-create-includes-webpack-plugin.svg?style=for-the-badge)
+
 The simple plug-in which allows you to run cordova/webpack app.
 
 ## Overview
