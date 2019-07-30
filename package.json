@@ -1,6 +1,6 @@
 {
   "name": "js-create-includes-webpack-plugin",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Making WebPack includes creating with JS createElement",
   "keywords": [
     "webpack",
@@ -21,10 +21,11 @@
     "url": "https://github.com/Piterden/js-create-includes-webpack-plugin.git"
   },
   "devDependencies": {
-    "@atomix/eslint-config": "^7.0.0-alpha.2",
     "babel-eslint": "^9.0.0",
-    "eslint": "^5.7.0",
+    "eslint": "^5.16.0",
+    "eslint-config-xo": "^0.26.0",
+    "eslint-config-xo-space": "^0.21.0",
     "html-webpack-plugin": "^3.2.0",
-    "webpack": "^4.21.0"
+    "webpack": "^4.38.0"
   }
 }
