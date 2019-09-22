@@ -12,6 +12,8 @@
   ],
   "main": "index.js",
   "scripts": {
+    "lint": "eslint --ext .js .",
+    "lint:fix": "eslint --ext .js --fix .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Denis Efremov <efremov.a.denis@gmail.com>",
