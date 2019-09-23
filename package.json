@@ -1,6 +1,6 @@
 {
   "name": "js-create-includes-webpack-plugin",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Making WebPack includes creating with JS createElement",
   "keywords": [
     "webpack",
