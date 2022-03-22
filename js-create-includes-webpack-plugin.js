@@ -14,17 +14,19 @@
  * @author  Denis Efremov <efremov.a.denis@gmail.com>
  * @license MIT
  */
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+
 class JSCreateIncludesWebpackPlugin {
   apply (compiler) {
     compiler.hooks.compilation.tap(
       'JSCreateIncludesWebpackPlugin',
       (compilation) => {
-        compilation.hooks.htmlWebpackPluginAfterHtmlProcessing.tapAsync(
+        HtmlWebpackPlugin.getHooks(compilation).beforeEmit.tapAsync(
           'JSCreateIncludesWebpackPlugin',
           (data, cb) => {
             data.html = data.html
               .replace(
-                /\s*<script\s+(?:type="text\/javascript"\s+)?src="\/?(([\w/.]+)\.\w+)"><\/script>/g,
+                /\s*<script\s+defer\s+(?:type="text\/javascript"\s+)?src="\/?(([\w/.]+)\.\w+)"><\/script>/g,
                 '\n<script>\n  const $2Script = document.createElement(\'script\');\n  $2Script.type = \'text/javascript\';\n  $2Script.async = true;\n  $2Script.src = \'$1\';\n  document.body.appendChild($2Script);\n</script>\n'
               )
               .split(/<\/script>\s*<script>/)
